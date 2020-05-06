@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01222D6D2451D2A00083EAF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01222D6C2451D2A00083EAF0 /* AppDelegate.swift */; };
+		01222D712451D2A00083EAF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01222D702451D2A00083EAF0 /* ViewController.swift */; };
+		01222D742451D2A00083EAF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01222D722451D2A00083EAF0 /* Main.storyboard */; };
+		01222D762451D2A10083EAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01222D752451D2A10083EAF0 /* Assets.xcassets */; };
+		01222D792451D2A10083EAF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01222D772451D2A10083EAF0 /* LaunchScreen.storyboard */; };
+		01222D8F2451D5CC0083EAF0 /* VoiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01222D8E2451D5CC0083EAF0 /* VoiceApi.swift */; };
+		01222D912451F1A40083EAF0 /* Microphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01222D902451F1A30083EAF0 /* Microphone.swift */; };
+		01222D932452DA1F0083EAF0 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01222D922452DA1F0083EAF0 /* WebSocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01222D692451D2A00083EAF0 /* VoiceApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01222D6C2451D2A00083EAF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01222D702451D2A00083EAF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01222D732451D2A00083EAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01222D752451D2A10083EAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01222D782451D2A10083EAF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01222D7A2451D2A10083EAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01222D8E2451D5CC0083EAF0 /* VoiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceApi.swift; sourceTree = "<group>"; };
+		01222D902451F1A30083EAF0 /* Microphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Microphone.swift; sourceTree = "<group>"; };
+		01222D922452DA1F0083EAF0 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01222D662451D2A00083EAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01222D602451D2A00083EAF0 = {
+			isa = PBXGroup;
+			children = (
+				01222D6B2451D2A00083EAF0 /* VoiceApiDemo */,
+				01222D6A2451D2A00083EAF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01222D6A2451D2A00083EAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01222D692451D2A00083EAF0 /* VoiceApiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01222D6B2451D2A00083EAF0 /* VoiceApiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01222D7A2451D2A10083EAF0 /* Info.plist */,
+				01222D702451D2A00083EAF0 /* ViewController.swift */,
+				01222D8E2451D5CC0083EAF0 /* VoiceApi.swift */,
+				01DBFC74245842000016B64E /* Lib */,
+				01DBFC73245841E60016B64E /* App Stuff */,
+			);
+			path = VoiceApiDemo;
+			sourceTree = "<group>";
+		};
+		01DBFC73245841E60016B64E /* App Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				01222D6C2451D2A00083EAF0 /* AppDelegate.swift */,
+				01222D722451D2A00083EAF0 /* Main.storyboard */,
+				01222D752451D2A10083EAF0 /* Assets.xcassets */,
+				01222D772451D2A10083EAF0 /* LaunchScreen.storyboard */,
+			);
+			path = "App Stuff";
+			sourceTree = "<group>";
+		};
+		01DBFC74245842000016B64E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				01222D922452DA1F0083EAF0 /* WebSocket.swift */,
+				01222D902451F1A30083EAF0 /* Microphone.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01222D682451D2A00083EAF0 /* VoiceApiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01222D882451D2A10083EAF0 /* Build configuration list for PBXNativeTarget "VoiceApiDemo" */;
+			buildPhases = (
+				01222D652451D2A00083EAF0 /* Sources */,
+				01222D662451D2A00083EAF0 /* Frameworks */,
+				01222D672451D2A00083EAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceApiDemo;
+			productName = VoiceApiDemo;
+			productReference = 01222D692451D2A00083EAF0 /* VoiceApiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01222D612451D2A00083EAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Dave Duprey";
+				TargetAttributes = {
+					01222D682451D2A00083EAF0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 01222D642451D2A00083EAF0 /* Build configuration list for PBXProject "VoiceApiDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01222D602451D2A00083EAF0;
+			productRefGroup = 01222D6A2451D2A00083EAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01222D682451D2A00083EAF0 /* VoiceApiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01222D672451D2A00083EAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01222D792451D2A10083EAF0 /* LaunchScreen.storyboard in Resources */,
+				01222D762451D2A10083EAF0 /* Assets.xcassets in Resources */,
+				01222D742451D2A00083EAF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01222D652451D2A00083EAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01222D712451D2A00083EAF0 /* ViewController.swift in Sources */,
+				01222D932452DA1F0083EAF0 /* WebSocket.swift in Sources */,
+				01222D8F2451D5CC0083EAF0 /* VoiceApi.swift in Sources */,
+				01222D912451F1A40083EAF0 /* Microphone.swift in Sources */,
+				01222D6D2451D2A00083EAF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01222D722451D2A00083EAF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01222D732451D2A00083EAF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01222D772451D2A10083EAF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01222D782451D2A10083EAF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01222D862451D2A10083EAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01222D872451D2A10083EAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01222D892451D2A10083EAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC9564MTQY;
+				INFOPLIST_FILE = VoiceApiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.what3words.VoiceApiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01222D8A2451D2A10083EAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC9564MTQY;
+				INFOPLIST_FILE = VoiceApiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.what3words.VoiceApiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01222D642451D2A00083EAF0 /* Build configuration list for PBXProject "VoiceApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01222D862451D2A10083EAF0 /* Debug */,
+				01222D872451D2A10083EAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01222D882451D2A10083EAF0 /* Build configuration list for PBXNativeTarget "VoiceApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01222D892451D2A10083EAF0 /* Debug */,
+				01222D8A2451D2A10083EAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01222D612451D2A00083EAF0 /* Project object */;
+}
