@@ -6,8 +6,8 @@
 
 The first steps to getting started are:
 
-1. [Get your free API key](https://accounts.what3words.com/create-api-key).
-2. Currently the Voice API is in beta, and therefore, access is granted upon request. Please contact us at voiceapi@what3words.com to **enable the Voice API** for your account.
+1. [Select our free plan](https://accounts.what3words.com/create-api-key?referrer=/voice-api) and create an API key.
+2. Add a Voice API plan in [your account](https://accounts.what3words.com/billing).
 3. Take a look at the [online documentation](https://developer.what3words.com/voice-api).
 
 ### Requirements
