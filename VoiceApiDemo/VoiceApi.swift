@@ -34,7 +34,7 @@ class VoiceApi {
   // MARK: Callbacks
   
   /// a callback block for when recognition is complete
-  var suggestions: ([VoiceSuggestion]) -> ()? = { _ in }
+  var suggestions: ([VoiceSuggestion]) -> () = { _ in }
   
   /// a callback block for when an error happens
   var closed: (String) -> () = { _ in }
